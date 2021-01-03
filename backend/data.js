@@ -5,13 +5,13 @@ export const data = {
         {
             name: 'Basir',
             email: 'basir@example.com',
-            password: bcrypt.hashAsync('1234', 8),
+            password: bcrypt.hashSync('1234', 8),
             isAdmin: true
         },
         {
             name: 'John',
             email: 'john@example.com',
-            password: bcrypt.hashAsync('1234', 8),
+            password: bcrypt.hashSync('1234', 8),
             isAdmin: false
         }
     ],
