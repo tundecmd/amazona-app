@@ -28,7 +28,7 @@ function App() {
       <main>
         <Route path='/cart/:id?' component={CartScreen} />
         <Route path='/product/:id' component={ProductScreen} /> 
-        <Route path='signin' component={SigninScreen} />
+        <Route path='/signin' component={SigninScreen} />
         <Route exact path='/' component={HomeScreen} /> 
       </main>
       <footer className="row center">All right reserved</footer>
